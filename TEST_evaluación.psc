@@ -1,5 +1,5 @@
 Proceso cuestionarioGenero
-//hola personas xd	
+
 //PREGUNTAS DATOS BASICOS
 	Definir nombre Como Caracter
 	Definir apellido Como Caracter
