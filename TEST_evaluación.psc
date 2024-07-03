@@ -277,45 +277,46 @@ Proceso cuestionarioGenero
 							//*************************************************************************************************************
 							Definir press Como Entero 
 							
-							Escribir "¿Cuantos press de banca realizo en 5 min.?" 
+							Escribir "¿Cuantos press de banca realizo en 5 min?" 
+							Escribir "1| Mas de 15"
+							Escribir "2| Mas de 10"
+							Escribir "3| Mas de 5 "
 							
 							leer press 
 							
-							
-							
-							Si press>=10 Entonces 
-								
-								Escribir "¡Obtuvo 6 puntos!" 
-								
-							SiNo 
-								
-								Escribir "¿Obtuvo 3 puntos!" 
-								
-							Fin Si 
+							Segun press Hacer
+								1:
+									Escribir "Obtuvo 6 puntos"
+								2:
+									Escribir "Obtuvo 4 puntos"
+								3:
+									Escribir "Obtuvo 2 puntos"
+								De Otro Modo:
+									Escribir "Ingrese una opción válida"
+							Fin Segun
+
 							
 							//*************************************************************************************************************
 							
 							Definir peso Como Entero 
 							
-							
-							
 							Escribir "¿Cuánto peso máximo logró levantar en la sentadilla completa?" 
-							
-							
+							Escribir "1| Mas de 130"
+							Escribir "2| Mas de 93"
+							Escribir "3| Mas de 64"
 							
 							leer peso 
 							
-							
-							
-							Si peso>=93 Entonces 
-								
-								Escribir "¡Obtuvo 6 puntos!" 
-								
-							SiNo 
-								
-								Escribir "¿Obtuvo 3 puntos!" 
-								
-							Fin Si 
+							Segun peso Hacer
+								1:
+									Escribir "Obtuvo 6 puntos"
+								2:
+									Escribir "Obtuvo 4 puntos"
+								3:
+									Escribir "Obtuvo 2 puntos"
+								De Otro Modo:
+									Escribir "Ingrese una opción válida"
+							Fin Segun
 							//*************************************************************************************************************
 						SiNo
 							Escribir "No eres apto"
